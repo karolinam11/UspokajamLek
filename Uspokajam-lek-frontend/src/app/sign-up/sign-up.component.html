@@ -18,7 +18,7 @@
           class="form-control info"
           formControlName="password"
           minlength="6">
-        <p class="text-danger" *ngIf="signUpForm.get('password')?.touched && signUpForm.value['password'].length < 6">Hasło powinno mieć conajmniej 6 znaków</p>
+        <p class="text-danger" *ngIf="signUpForm.get('password')?.touched && signUpForm.value['password'].length < 6">Hasło powinno mieć co najmniej 6 znaków</p>
       </div>
       <div class="form-group">
         <label for="secondPassword">Powtórz hasło <span>*</span></label>
@@ -28,7 +28,7 @@
           class="form-control info"
           formControlName="secondPassword"
           minlength="6">
-        <p class="text-danger" *ngIf="signUpForm.get('secondPassword')?.touched && signUpForm.value['secondPassword'].length < 6">Hasło powinno mieć conajmniej 6 znaków</p>
+        <p class="text-danger" *ngIf="signUpForm.get('secondPassword')?.touched && signUpForm.value['secondPassword'].length < 6">Hasło powinno mieć co najmniej 6 znaków</p>
         <p class="text-danger" *ngIf="signUpForm.get('secondPassword')?.touched && signUpForm.value['secondPassword'] != signUpForm.value['password']">Hasła nie są takie same</p>
       </div>
       <div class="form-group">

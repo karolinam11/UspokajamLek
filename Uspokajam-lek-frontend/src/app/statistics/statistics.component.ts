@@ -77,13 +77,13 @@ export class StatisticsComponent {
       x: {
         title: {
           display: true,
-          text: 'Data'
+          text: 'Emocja'
         }
       },
       y: {
         title: {
           display: true,
-          text: 'Emocja przewodnia'
+          text: 'Data'
         },
       },
     },
@@ -106,13 +106,13 @@ export class StatisticsComponent {
       x: {
         title: {
           display: true,
-          text: 'Data'
+          text: 'Emocja przewodnia'
         }
       },
       y: {
         title: {
           display: true,
-          text: 'Emocja przewodnia'
+          text: 'Data'
         },
       },
     },
