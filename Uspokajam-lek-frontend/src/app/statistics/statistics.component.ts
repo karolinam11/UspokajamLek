@@ -83,7 +83,7 @@ export class StatisticsComponent {
       y: {
         title: {
           display: true,
-          text: 'Data'
+          text: 'Wartość'
         },
       },
     },
@@ -112,7 +112,7 @@ export class StatisticsComponent {
       y: {
         title: {
           display: true,
-          text: 'Data'
+          text: 'Wartość'
         },
       },
     },
